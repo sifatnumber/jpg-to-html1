@@ -1,0 +1,278 @@
+.body{
+	margin: 0;
+	padding: 0;
+}
+
+.header_wrapper{
+	background-color: #2C3E50;
+}
+.header {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	box-sizing: border-box;
+	/*border: 2px solid red;*/
+	padding: 8px 0;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+	/*border: 2px solid white;*/
+	color: white;
+	margin-top: 5px;
+}
+.logo h1{
+	margin-right: 20px;
+	text-align: right;
+	padding-top: 2px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.menu {
+	width: 70%;
+	float: right;
+	box-sizing: border-box;
+	/*border: 2px solid white;*/
+}
+.menu ul{
+	padding: 20px;
+	margin-left: 460px;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	padding-left: 20px;
+}
+.profile_wrapper{
+	background-color: #18BC9C;
+}
+.profile {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	clear: both;
+	/*border: 2px solid black;*/
+}
+.profile_wrap{
+	padding-top: 100px;
+	padding-bottom: 80px;
+
+}
+.p_image img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.p_heading h1 {
+	/*margin-left: auto;
+    margin-right: auto;*/
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.p_icon img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0;
+}
+
+.p_paragraph {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+.p_paragraph h5{
+	margin: 0;
+	padding: 10px 0;
+}
+
+.portfolio_wrap {
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 110px;
+}
+.p_title h1{
+	text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 0;
+    padding-top: 70px;
+}
+.po_icon img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0;
+}
+.portfolio_wrapper{
+
+}
+.portfolio {
+	/*border: 2px solid blue;*/
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+	/*padding-left: 40px;*/
+}
+.portfolio img{
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.about_wrapper{
+	/*border: 2px solid red;*/
+	background-color: #18BC9C;
+}
+.about {
+	/*border: 2px solid blue;*/
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.a_heading h2{
+	text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    padding-top: 90px;
+}
+
+.a_icon img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+}
+
+.a_paragraph {
+	color: white;
+	font-size: 20px;
+	padding: 0 10px;
+}
+.a_button{
+	 display: flex;
+	 justify-content: center;
+	 padding-bottom: 60px;
+}
+.button {
+	background-color: #18BC9C;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 25px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: white;
+    color: #18BC9C;
+}
+.contact {
+	/*border: 2px solid blue;*/
+	margin: 0 auto;
+	width: 1200px;
+
+}
+
+.c_heading h2{
+	text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 0;
+    margin-top: 100px;
+    /*border: 2px solid blue;*/
+}
+
+.c_icon img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 5px 15px 0;
+}
+.form{
+	width: 50%;
+	margin: 0 auto;
+}
+#name, #email, #phone, #message{
+	box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-top: 1px solid #ddd;
+ 
+    background: transparent;
+    margin-bottom: 2px;
+    font-size: 20px;
+    /*height: 45px;*/
+}
+
+.c_button button{
+	background-color: #18BC9C;
+    border-radius: 8px;
+    color: white;
+    padding: 11px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 25px 2px;
+    cursor: pointer;
+    /*transition-duration: 0.4s;*/
+}
+.footer_wrapper {
+	background-color: #2C3E50
+}
+
+.footer_wrap{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+.footer{
+	width: 33%;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  color: white;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  border-color: white;
+}
+.copyright {
+	background-color: #253042;
+	color: white;
+}
+.copyright p{
+	margin: 0;
+	padding: 40px 0;
+	text-align: center;
+}
